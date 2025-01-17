@@ -1,0 +1,45 @@
+.contenido{
+    background-color: grey;
+    padding: 50px;
+    padding-right: 120px;
+    padding-left: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+
+}
+.titulopagina{
+    padding: 10px 0;
+  text-align: center;
+}
+.photo{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+.encabezado {
+    display: flex;
+    padding: 10px;
+}
+.encabezado .relleno {
+    flex: 1;
+}
+.imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+.encabezado .titulo{
+    margin: 0;
+    padding: 0;
+}
+.descripcion {
+    padding: 5px;
+    font-size: small;
+}
+.titulopagina h2 {
+    padding: 0;
+    margin: 0;
+}
+
